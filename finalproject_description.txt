@@ -1,0 +1,28 @@
+﻿Final Project Description
+
+
+Description: Our goal for our final project was to create an endless scrolling runner-based arcade game that was Barbie Fairytopia-themed. We wanted to simulate the game mechanics of the mobile game Jetpack Joyride, with the main character flying up and down across the screen as they collect coins and dodge obstacles. As for the story of our game, the main character would be a fairy character that would be dodging “toxic” bubbles that after three hits, they lose their ability to fly, leading to the end of the game. The game also increases in difficulty as more coins are collected. With every 10 coins collected, there is an additional bubble and an additional coin added to the screen. 
+When it came to dividing up team responsibilities, we decided to split it by first design and then logic. Carolina Navarrete was in charge of sourcing all the graphics, images, fonts, and buttons, as well as implementing the motion functionality for the fairy. Samhita Bondada was in charge of the game's logic, which meant building the classes to have the obstacle objects move across the scream, edge detection methods, and the background endless scrolling animation. Both team members worked on implementing the buttons and interface options to allow for interactivity. 
+
+
+Carolina Navarrete: As mentioned previously, I was in charge of the aesthetics of the game. This meant sourcing and designing the elements present within the game. The fairy animation is based on a sprite sheet sourced from an artist credited below. The scrolling background is one large transparent png that was put together within the Canva application using multiple smaller elements from Diego Solas’s collection of pixelated greenery available on Canva. All the buttons, backgrounds, and text boxes were designed by me and then uploaded into processing. I generated the color palette by pulling colors from the original Barbie Fairytopia movie to keep within the theme. Another aspect of the game I was in charge of was the audio, I sourced and edited the audio used, which Samhita implemented into the game. I also created the Fairy Creation class that animates the movements of the fairy and allows the user to use the spacebar to move up and down. I also created the button class, which allowed us to upload the svg files I designed as buttons that could be clicked on. The implementation of the button class was worked on by both team members, with Samhita debugging the class and adjusting the location of the buttons on the screen. 
+
+
+Samhita Bondada: I was in charge of the logic of the game, so I was in charge of the win/lose conditions and resetting all the elements such as the coin and life counter. I implemented the sinusoidal motion and regeneration of the bubbles as well as the generation and regeneration of the coins. I also created all of the edge detection methods to collect coins as well as remove bubbles/lives respectively. I also implemented the animation hierarchy of the fairy using a particle system to generate a fairy dust trail. The processing example that I based the particle system on is below. I also implemented the scrolling background.  Beyond the gameplay elements, I also incorporated the music that Carolina sourced and created the scoreboard. I also assisted Carolina on implementing the buttons, and dealt with the logic regarding the choose your character screen, and end screen.
+
+
+
+
+
+
+
+
+
+
+Game Credits:
+Fairy Sprite Sheets: Pop Shack Packs, “Fairies || 2D pixel art pack”, https://pop-shop-packs.itch.io/fairies-2d-pixel-art-pack
+Scrolling Background: Elements from Diego Solas, Trendify, Canva Application
+Barbie Fairytopia Soundtrack (Cut Down in Game): https://www.youtube.com/watch?v=BsOs0jEB2kg&ab_channel=Rosiie
+Glitter Sound Effect (Cut Down in Game): https://www.youtube.com/watch?v=0WEPWglzP0s&ab_channel=BerlinAtmospheres
+Nine by Five Font: https://www.wfonts.com/font/nine-by-five-nbp
+Particle System: https://processing.org/examples/multipleparticlesystems.html
